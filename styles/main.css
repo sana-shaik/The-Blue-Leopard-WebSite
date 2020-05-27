@@ -2,7 +2,7 @@
 /* ----------------------------------------------------
                     COLOR GUIDE
 
-GOLD: rgh(172,149,71);
+GOLD: rgb(172,149,71);
 WHITE: rgb(226,226,226);
 GREY: rgb(128,128,128);
 BLACK: rgb(15,15,15)
@@ -31,6 +31,7 @@ body {
 
 h1,h2,h3 {
     font-family: "double-pica-sc","alegreya sc",Garamand, "Baskerville Old Face", "Times New Roman", serif ;
+    font-weight: normal;
 }
 
 h1 {
@@ -38,6 +39,7 @@ h1 {
     line-height: 1.2656em;
     margin-top: 0.4219em;
     margin-bottom: 0;
+    color: rgb(172,149,71);
     /* important will override all*/
     /* color: red !important;  */
 
@@ -83,6 +85,100 @@ a:hover {
 a:active {
     color: rgb(252,217,142);
 } 
+.button {
+    background-color: rgb(172,140,71);
+    border-radius: 10px;
+}
+
+.button a {
+    color: rgb(226,226,226);
+    text-decoration: none;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    
+}
+
+.button a:hover {
+    background-color: rgb(119,97,48);
+    border-radius: 8px;
+}
+
+.featured-info h3 {
+    border-bottom: 1px solid rgb(128,128,128) ;
+}
+
+.featured-info p {
+    font-style: italic;
+}
+
+.featured-info ul {
+    list-style: none;
+    padding-left: 0em;
+}
+
+.gallery {
+    margin-top: 30px;
+}
+
+/*---------------------------------------------------
+                LOGO STYLES
+----------------------------------------------------*/
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}   
+
+.logo img {
+    width: 150px;
+}
+
+/*---------------------------------------------------
+               MAIN NAVIGATION STYLES
+----------------------------------------------------*/
+.main-navigation ul {
+    padding: 0;  
+}
+
+.main-navigation li {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+    /* display: inline; */
+}
+
+.main-navigation a {
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgba(67,67,67,0.17);
+    color: rgb(180,180,180);
+}
+
+.main-navigation a:visited {
+    color: rgb(106,106,106);
+}
+
+.main-navigation a:hover {
+    color: rgb(255,255,255);
+    transition: .5s color;
+    background: rgba(62,61,61,0.51)
+}
+
+.main-navigation a:active {
+    color: rgb(172,140,71);
+}
+
+/*---------------------------------------------------
+               MENU PAGE STYLES
+----------------------------------------------------*/
+.menu-page .featured-info ul {
+    font-style: italic;
+}
 
 /*---------------------------------------------------
                 GLOBAL FOOTER STYLES
