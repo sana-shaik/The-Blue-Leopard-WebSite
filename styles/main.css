@@ -1,7 +1,32 @@
+
+/* ----------------------------------------------------
+                    COLOR GUIDE
+
+GOLD: rgh(172,149,71);
+WHITE: rgb(226,226,226);
+GREY: rgb(128,128,128);
+BLACK: rgb(15,15,15)
+        rgba(15,15,15,0.74);
+-------------------------------------------------------*/
+
+/* ----------------------------------------------------
+                    GLOBAL STYLES
+-------------------------------------------------------*/
 body {
     font-size: 19px;
     font-family: "cronos-pro", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(226,226,226);
+    background: rgb(15, 15, 15);
+    background-image: url(../images//background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2% 6% 6% 6%;
+}
 
+.container {
+    background: rgb(15, 15, 15); /*IE8*/
+    background: rgba(15,15,15,0.74);
+    padding: 30px;
 }
 
 h1,h2,h3 {
@@ -13,6 +38,9 @@ h1 {
     line-height: 1.2656em;
     margin-top: 0.4219em;
     margin-bottom: 0;
+    /* important will override all*/
+    /* color: red !important;  */
+
 }
 
 h2 {
@@ -34,4 +62,40 @@ p {
     line-height: 1.4211em;
     margin-top: 1.4211em;
     margin-bottom: 0em;
+}
+
+img {
+    width: 100%;
+}
+
+a:link {
+    color: rgb(172,140,71);
+}
+
+a:visited {
+    color: rgb(129, 81, 41);
+}
+
+a:hover {
+    color: rgb(224, 182, 90);
+}
+
+a:active {
+    color: rgb(252,217,142);
+} 
+
+/*---------------------------------------------------
+                GLOBAL FOOTER STYLES
+----------------------------------------------------*/
+
+footer {
+    padding: 10px 0;
+}
+
+footer h4 {
+    text-transform: uppercase;
+}
+
+footer p {
+    margin: 0;
 }
