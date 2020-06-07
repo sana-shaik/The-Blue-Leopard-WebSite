@@ -21,6 +21,8 @@ creating a responsive website from the ground up using a mobile-first approach
 
 ``` https://drewish.com/tools/vertical-rhythm/ ```
 
+# Final Project
+
 ### Home Page
 
 ![image](https://user-images.githubusercontent.com/45564856/83962234-5bc0ce80-a8b9-11ea-8e1f-38b1dbd82604.png)
